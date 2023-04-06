@@ -75,9 +75,12 @@ WSGI_APPLICATION = "clothe_service.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'clotheservice',
+        'USER': 'root',
+        'PASSWORD': 'PhanNguyen1411@',
+        'PORT': '3306'
     }
 }
 
