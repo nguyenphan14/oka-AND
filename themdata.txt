@@ -1,0 +1,3 @@
+from book_model.models import book_details              
+>>> p = book_details(product_id = "BO0001",book_category = "Sach thieu nhi",book_name = "De men phieu luu ky",availability = "availiable",price = "25000")
+>>> p.save()
